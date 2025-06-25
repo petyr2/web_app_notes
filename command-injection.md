@@ -112,7 +112,7 @@ Check if the application behavior changes or errors out in suspicious ways.
 
 If you want, I can help you draft specific test inputs for detection or explain how to fix the vulnerability. Would you like that?
 
-Prevention
+-Prevention:
 
 Preventing command injection in PHP code like yours is crucial for security. Here are effective ways to prevent command injection in your script:
 
@@ -128,7 +128,7 @@ Whitelist allowed values for parameters like cow. For example, prepare a list of
 
 For text messages (mooing), restrict or sanitize input to remove shell-special characters.
 
-Use escapeshellarg or escapeshellcmd
+Use `escapeshellarg` or `escapeshellcmd`
 
 Use `escapeshellarg()` to escape parameters that will be passed to the shell, which safely wraps them in quotes and escapes special characters.
 Example:
@@ -140,7 +140,7 @@ passthru("perl /usr/bin/cowsay -f $cow $mooing");
 ```
 However, be careful if $cow is restricted to specific filenames because escapeshellarg will quote the whole string (which might break the `-f` option if not handled properly).
 
-Use safer alternatives
+-Use safer alternatives:
 
 Instead of running commands directly, consider using a PHP library or internal logic to do what you want without shell calls.
 
@@ -170,7 +170,7 @@ If possible, disable dangerous functions like `exec, passthru` in your PHP confi
 
 This is a broader measure but improves overall security.
 
-Summary:
+-Summary:
 
 Never trust user input directly in shell commands.
 
