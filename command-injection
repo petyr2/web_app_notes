@@ -54,7 +54,7 @@ cat /etc/passwd  # shows the available users and there privileges
 
 cat /etc/os-release  # shows the os version running on the web server
 ```
-
+```bash```
 
 
 
