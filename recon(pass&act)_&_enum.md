@@ -85,6 +85,97 @@ For instance, `nslookup -type=A example.com 1.1.1.1` (or `nslookup -type=a examp
 For `dig` we use `dig example.com A` to discover ipv4 address.
 
 
+On the side of online services, we have:
+
+`DNSDumpster` is a FREE domain research tool that can discover hosts related to a domain.[DNSDumpster](dnsdumpster.com)
+
+`Shodan.io` can be helpful to learn various pieces of information about the client’s network, without actively connecting to it. Furthermore, on the defensive side, you can use different services from 
+
+[Shodan.io](shodan.io) to learn about connected and exposed devices belonging to your organization.
+
+Shodan.io tries to connect to every device reachable online to build a search engine of connected “things” in contrast with a search engine for web pages. Once it gets a response, it collects all the 
+
+Information related to the service and saves it in the database to make it searchable.
+
+Shodan can be used to search for: 
+
+IP address
+hosting company
+
+geographic location
+
+server type and version
+
+Port numbers mostly used with different services.
+
+
+
+
+
+ACTIVE_RECONNAISSANCE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
