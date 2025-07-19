@@ -1,4 +1,4 @@
-Passive_recon
+PASSIVE_RECONNAISSANCE
 
 In passive reconnaissance, you rely on publicly available knowledge. It is the knowledge that you can access from publicly available resources without directly engaging with the target.
 
@@ -113,6 +113,13 @@ Port numbers mostly used with different services.
 
 
 ACTIVE_RECONNAISSANCE
+
+We learn to use a web browser to collect more information about our target. Moreover, we discuss using simple tools such as `ping`, `traceroute`, `telnet`, and `nc` to gather information about the 
+
+network, 
+
+system, and services.
+
 
 
 
