@@ -82,7 +82,7 @@ Query type	Result
 
 For instance, `nslookup -type=A example.com 1.1.1.1` (or `nslookup -type=a example.com 1.1.1.1` as it is case-insensitive) can be used to return all the IPv4 addresses used by `example.com`.
 
-
+For `dig` we use `dig example.com A` to discover ipv4 address.
 
 
 
