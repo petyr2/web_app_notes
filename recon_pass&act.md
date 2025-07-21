@@ -14,9 +14,9 @@ We use `whois` to query WHOIS records, while we use `nslookup` and `dig` to quer
 
 Also, there are two other online services:
 
-DNSDumpster
+DNSDumpster Searches for subdomain and their IP address. usage: on the browser  write `example.com`
 
-Shodan.io
+Shodan.io WE can discover IP address, hosting company, geographic location, server type and version. usage: on the browser write ` example.com`
 
 Let's begin with `whois`
 
