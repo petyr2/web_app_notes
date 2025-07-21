@@ -132,8 +132,17 @@ usage:`traceroute hostname` #linux and mac
 
 `tracert hostname.traceroute` # ms windows
 
+Telnet is used fro communication with the server on the command line its default port is port 23, and it uses HTTP for its communication port 80. ``SSH`` is the alternative secure protocol of telnet.
 
+usage `telnet machine_ip port(80)`
 
+Also, we can use nmap to discover more about the server by using: `nmap -sV -p port --script http-headers target`
+
+Netcat, which you can connect to a server, as you did with Telnet, to collect its banner using `nc ipaddress PORT`, which is quite similar to our previous `telnet ipaddress PORT`.
+
+Note that you might need to press SHIFT+ENTER after the GET line.
+
+Also this can work here `nmap -sV -p port --script http-headers target`
 
 
 
