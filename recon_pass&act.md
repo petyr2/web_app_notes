@@ -120,6 +120,21 @@ network,
 
 system, and services.
 
+We can use ping to check for the network connection of the server and the target:`ping hostname`
+
+`ping -c 4 hostname`, the `-c` indicates the number of packets one wants to send to the target.
+
+Traceroute is used to trace the route taken by the packet to reach the target. Its purpose find the IP addresses of the routers or hops that a packet traverses as it goes from your system to a target 
+
+host. It also shows the number of routers between the two systems.
+
+usage:`traceroute hostname` #linux and mac
+
+`tracert hostname.traceroute` # ms windows
+
+
+
+
 
 
 
