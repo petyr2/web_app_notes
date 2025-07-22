@@ -1,4 +1,4 @@
-PASSIVE_RECONNAISSANCE
+# PASSIVE_RECONNAISSANCE
 
 In passive reconnaissance, you rely on publicly available knowledge. It is the knowledge that you can access from publicly available resources without directly engaging with the target.
 
