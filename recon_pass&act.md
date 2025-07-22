@@ -109,10 +109,7 @@ server type and version
 Port numbers mostly used with different services.
 
 
-
-
-
-ACTIVE_RECONNAISSANCE
+# ACTIVE_RECONNAISSANCE
 
 We learn to use a web browser to collect more information about our target. Moreover, we discuss using simple tools such as `ping`, `traceroute`, `telnet`, and `nc` to gather information about the 
 
